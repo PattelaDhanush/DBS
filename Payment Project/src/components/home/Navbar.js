@@ -4,22 +4,26 @@ import { Link } from 'react-router-dom'
 export default function Navbar() {
     return (
         <nav className="navbar bg-dark">
+            <div className="nav-button1">
             <h1>  
                 <Link to="">  
-                    <i className="fas fa-code"></i> DBS Payment
+                    <i className="fa fa-code">DBS Payment</i> 
                 </Link>
             </h1>
-            <ul>
-                <li>
-                    <Link to="/">Home</Link>
-                </li>
-                <li>
-                    <Link to="transfer">Transfer</Link>
-                </li>
-                <li>
-                    <Link to="Dashboard">Dashboard</Link>
-                </li>
-            </ul>
+            </div>
+            <div className="nav-button2">
+                <ul className="nav-list">
+                    <li className="nav-list-item">
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li className="nav-list-item">
+                        <Link to="/transfer">Transfer</Link>
+                    </li>
+                    <li className="nav-list-item">
+                        <Link to="Dashboard">Dashboard</Link>
+                    </li>
+                </ul>
+            </div>
         </nav>
     );
 }
