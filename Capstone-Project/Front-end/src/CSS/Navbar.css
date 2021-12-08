@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+.nav-bar{    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-items>a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 500;
+    color: hsl(233, 8%, 62%); 
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration-style: solid;
+
+}
+
+.nav-bar>button{
+    padding: 10px 25px;
+    border: none;
+    outline-width: 0;
+    color: rgb(5, 0, 0);
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    background-image: linear-gradient(120deg, hsl(192, 70%, 51%),
+    hsl(136, 65%, 51%)); /* add colors for linear gradient*/
+}
